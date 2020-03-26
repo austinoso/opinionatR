@@ -5,9 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Poll.destroy_all
-Company.destroy_all
-User.destroy_all
  
 10.times { User.create(username: Faker::Name.name ) }
 
